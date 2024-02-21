@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+nav{
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #313131;
+    }
+    
+    li {
+    float:right;
+    }
+    
+    li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover {
+    background-color: #f8f18d;
+    }
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    align-items:center
+}
+.serch{
+    display:flex;
+    align-items: center;
+    margin-right: 0;
+    float: right;
+
+}
